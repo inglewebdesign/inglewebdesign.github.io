@@ -118,13 +118,16 @@ text-align: center;
 padding-top: 50px;
 vertical-align: middle;
 font-weight: 400;
+background-image: url("http://www.culet.co.nz/image/cache/data/diamond%20guide%20banner2-940x380h.jpg");
 background-color:black;
-height: 190px;
+height: 340px;
 font-size: 40px;
 color: white;
+
+
 }
 .socialico{
-  background-color: white;
+  background-color: lightgrey;
   width: 119px;
   padding: 5px;
   padding-left:5px;
@@ -138,6 +141,33 @@ color: white;
 .socialico a {
   color: black;
 }
+.foot{
+  background-color: white;
+  border-style: outset;
+  border-width: : 150px;
+  border-color: lightgrey;
+  border-radius: 30px;
+}
+.newbutton{
+width: 300px;
+padding: 10px;
+
+font-size: 20px;
+background-color: Transparent;
+
+}
+.newbutton:hover{
+  background-color: white;
+  color: black;
+}
+
+.buttonpadd{
+  padding-top:100px;
+}
+span {
+    margin: 0 10px;
+}
+
 
 @media screen and (max-width: 768px) {
   .gtco-nav {
