@@ -221,7 +221,7 @@ background-color: lightgrey;
 
 @media screen and (max-width: 768px) {
   .about{
-    height: 500px;
+    height: 530px;
   }
   .aboutmain{
 height: 1100px;
@@ -229,7 +229,7 @@ height: 1100px;
   }
   .about1{
     color: white;
-height: 205px;
+height: 235px;
     width:95%;
     float: none;}
 
@@ -237,15 +237,17 @@ height: 205px;
   width: 95%;
   color: white;
   float: none;
+  height: 235px;
 
 }
 .about3{
   width: 95%;
   color: white;
   float: none;
+  height: 235px;
 }
 .new{
-  height: 630px;
+  height: 930px;
 }
 }
 @media screen and (max-width: 768px) {
