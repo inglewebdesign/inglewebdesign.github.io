@@ -224,24 +224,24 @@ background-color: lightgrey;
     height: 530px;
   }
   .aboutmain{
-height: 1400px;
+height: 1460px;
 
   }
   .about1{
     color: white;
-height: 235px;
-    width:95%;
+height: 265px;
+    width:100%;
     float: none;}
 
 .about2{
-  width: 95%;
+  width: 100%;
   color: white;
   float: none;
   height: 235px;
 
 }
 .about3{
-  width: 95%;
+  width: 100%;
   color: white;
   float: none;
   height: 235px;
@@ -250,6 +250,65 @@ height: 235px;
   height: 930px;
 }
 }
+@media screen and (max-width: 480px) {
+
+  .about{
+    height: 710px;
+  }
+  .aboutmain{
+height: 1740px;
+
+  }
+  .about1{
+    color: white;
+height: 355px;
+    width:100%;
+    float: none;}
+
+.about2{
+  width: 100%;
+  color: white;
+  float: none;
+  height: 335px;
+
+}
+.about3{
+  width: 100%;
+  color: white;
+  float: none;
+  height: 335px;
+}
+.new{
+  height: 1130px;
+}
+.welcome{
+text-align: center;
+padding-top: 30px;
+vertical-align: middle;
+font-weight: 400;
+background-color:black;
+height: 300px;
+font-size: 30px;
+color: white;
+
+
+}
+.newbutton{
+width:170px;
+padding: 6px;
+vertical-align: bottom;
+
+font-size: 12px;
+background-color: Transparent;
+
+}
+.newbutton:hover{
+  background-color: white;
+  color: black;
+}
+
+}
+
 @media screen and (max-width: 768px) {
   .gtco-nav {
     padding: 10px 0;
