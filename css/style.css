@@ -149,8 +149,9 @@ color: white;
   border-radius: 30px;
 }
 .newbutton{
-width: 300px;
+width:270px;
 padding: 10px;
+vertical-align: bottom;
 
 font-size: 20px;
 background-color: Transparent;
@@ -167,13 +168,93 @@ background-color: Transparent;
 span {
     margin: 0 10px;
 }
+.about{
+padding: 38px;
+height: 300px;
+float: left;
 
 
+
+}
+.aboutmain{
+  padding:40px;
+  width:100%;
+  height:600px;
+  float: none;
+  background-color: lightgrey;
+}
+.about1{
+  width: 34%;
+  float: left;
+  color: white;
+  padding: 20px;
+height: 180px;
+  text-align: center;
+  background-color: BLUE;
+}
+.about2{
+  width: 33%;
+  float:left;
+padding:20px;
+color: white;
+height: 180px;
+background-color: red;
+  text-align: center;
+}
+.about3{
+  color: white;
+  width: 33%;
+  float:left;
+  height: 180px;
+padding:20px;
+background-color: green;
+  text-align: center;
+}
+
+.new{
+background-color: lightgrey;
+  padding: 40px;
+
+
+  height: 290px;
+}
+
+@media screen and (max-width: 768px) {
+  .about{
+    height: 500px;
+  }
+  .aboutmain{
+height: 1100px;
+
+  }
+  .about1{
+    color: white;
+height: 205px;
+    width:95%;
+    float: none;}
+
+.about2{
+  width: 95%;
+  color: white;
+  float: none;
+
+}
+.about3{
+  width: 95%;
+  color: white;
+  float: none;
+}
+.new{
+  height: 630px;
+}
+}
 @media screen and (max-width: 768px) {
   .gtco-nav {
     padding: 10px 0;
     border-bottom: 1px solid #666666;
+
   }
+
 }
 .gtco-nav #gtco-logo {
   font-size: 20px;
@@ -1190,6 +1271,7 @@ blockquote p > cite {
   .gtco-nav-toggle {
     display: block;
   }
+
 }
 
 .btn {
@@ -1522,6 +1604,7 @@ blockquote p > cite {
   .owl-carousel-carousel.owl-theme .owl-controls .owl-nav .owl-next {
     right: -50px;
   }
+
 }
 
 .owl-carousel-carousel.owl-theme .owl-controls .owl-nav .owl-prev {
