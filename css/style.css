@@ -253,7 +253,7 @@ height: 235px;
 @media screen and (max-width: 480px) {
 
   .about{
-    height: 710px;
+    height: 610px;
   }
   .aboutmain{
 height: 1640px;
@@ -261,7 +261,7 @@ height: 1640px;
   }
   .about1{
     color: white;
-height: 335px;
+height: 235px;
     width:100%;
     float: none;}
 
