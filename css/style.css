@@ -118,11 +118,14 @@ text-align: center;
 padding-top: 50px;
 vertical-align: middle;
 font-weight: 400;
-background-image: url("http://www.culet.co.nz/image/cache/data/diamond%20guide%20banner2-940x380h.jpg");
+background-image: url(../images/logobanner.jpeg);
 background-color:black;
 height: 340px;
 font-size: 40px;
 color: white;
+background-size: 100% 100%;
+background-position: center;
+background-repeat:no-repeat;
 
 
 }
@@ -152,10 +155,13 @@ color: white;
 width:270px;
 padding: 10px;
 vertical-align: bottom;
-
+color: yellow;
 font-size: 20px;
 background-color: Transparent;
 
+}
+.newbutton a {
+  color: yellow;
 }
 .newbutton:hover{
   background-color: white;
@@ -238,8 +244,12 @@ height: 235px;
   color: white;
   float: none;
   height: 205px;
-
+  }
+.welcome{
+  height: 250px;
+background-size: 100% 100%;
 }
+
 .about3{
   width: 100%;
   color: white;
@@ -290,7 +300,7 @@ background-color:black;
 height: 300px;
 font-size: 30px;
 color: white;
-
+background-size: 100% 100%;
 
 }
 .newbutton{
