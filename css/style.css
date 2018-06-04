@@ -16,7 +16,8 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: #000;
-  background: grey;
+  background-image: linear-gradient(black,grey);
+  
 }
 
 #page {
@@ -60,10 +61,11 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 20px;
+color: white;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -115,14 +117,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .welcome{
 text-align: center;
-padding-top: 50px;
+padding-top: 80px;
+
 vertical-align: middle;
 font-weight: 400;
 background-image: url(../images/logobanner.jpeg);
 background-color:black;
-height: 340px;
+height: 515px;
 font-size: 40px;
-color: white;
+color: #d8b711;
 background-size: 100% 100%;
 background-position: center;
 background-repeat:no-repeat;
@@ -152,9 +155,10 @@ background-repeat:no-repeat;
   border-radius: 30px;
 }
 .newbutton{
-width:270px;
+width:240px;
 padding: 10px;
 vertical-align: bottom;
+border-radius: 6px;
 color: yellow;
 font-size: 20px;
 background-color: Transparent;
@@ -169,7 +173,7 @@ background-color: Transparent;
 }
 
 .buttonpadd{
-  padding-top:100px;
+  padding-top:30px;
 }
 span {
     margin: 0 10px;
@@ -217,6 +221,41 @@ background-color: green;
   text-align: center;
 }
 
+
+
+.products{
+color: grey;
+
+  width: 100%;
+height: 400px;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+.pro1{
+  width: 33%;
+  float: left;
+  height: 100%;
+}
+.pro2{
+  width: 33%;
+  float: left;
+  height: 100%;
+}
+.pro3{
+  width: 33%;
+  height: 98%;
+  float: left;
+}
+.protxt{
+color: black;
+height: 40px;
+text-align: center;
+border-radius: 25px;
+padding: 5px;
+background-color: grey;
+}
+
 .new{
 background-color: lightgrey;
   padding: 40px;
@@ -229,6 +268,26 @@ background-color: lightgrey;
   .about{
     height: 530px;
   }
+.products{
+  height: 1090px;
+  padding: 3px;
+}
+
+
+.pro1{
+  width: 100%;
+  height: 350px;
+}
+.pro2{
+  width: 100%;
+  height: 350px;
+}
+.pro3{
+  width: 100%;
+  height: 350px;
+}
+
+
   .aboutmain{
 height: 1460px;
 
@@ -239,6 +298,7 @@ height: 235px;
     width:100%;
     float: none;}
 
+}
 .about2{
   width: 100%;
   color: white;
@@ -246,7 +306,7 @@ height: 235px;
   height: 205px;
   }
 .welcome{
-  height: 250px;
+  height: 450px;
 background-size: 100% 100%;
 }
 
@@ -297,7 +357,7 @@ padding-top: 30px;
 vertical-align: middle;
 font-weight: 400;
 background-color:black;
-height: 300px;
+height: 450px;
 font-size: 30px;
 color: white;
 background-size: 100% 100%;
@@ -336,7 +396,7 @@ background-color: Transparent;
 
 }
 .gtco-nav #gtco-logo a {
-  color: #000;
+  color: yellow;
 }
 .gtco-nav #gtco-logo em {
   color: #fff;
@@ -483,7 +543,7 @@ background-color: Transparent;
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .gtco-nav ul li.active > a {
-  color: #000 !important;
+  color: grey;
 }
 
 @media screen and (max-width: 480px) {
@@ -766,7 +826,13 @@ background-color: Transparent;
   float: left;
   width: 100%;
   display: block;
+
 }
+.gtco-item{
+  background-color:  lightgrey;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .gtco-staff, .gtco-item {
     margin-bottom: 3em;
@@ -1760,6 +1826,9 @@ blockquote p > cite {
 
 .feature-left {
   margin-bottom: 0px;
+}
+.feature-left i{
+  color: white;
 }
 @media screen and (max-width: 768px) {
   .feature-left {
