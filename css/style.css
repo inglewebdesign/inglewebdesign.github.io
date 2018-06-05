@@ -17,7 +17,7 @@ body {
   line-height: 1.7;
   color: #000;
   background-image: linear-gradient(black,grey);
-  
+
 }
 
 #page {
@@ -117,13 +117,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .welcome{
 text-align: center;
-padding-top: 80px;
+padding-top: 20px;
 
 vertical-align: middle;
-font-weight: 400;
+font-weight: 800;
 background-image: url(../images/logobanner.jpeg);
 background-color:black;
-height: 515px;
+height: 460px;
 font-size: 40px;
 color: #d8b711;
 background-size: 100% 100%;
@@ -131,6 +131,10 @@ background-position: center;
 background-repeat:no-repeat;
 
 
+}
+.logopng img{
+  width:160px;
+  height:130px;
 }
 .socialico{
   background-color: lightgrey;
@@ -155,11 +159,11 @@ background-repeat:no-repeat;
   border-radius: 30px;
 }
 .newbutton{
-width:240px;
-padding: 10px;
+width:180px;
+padding: 5px;
 vertical-align: bottom;
 border-radius: 6px;
-color: yellow;
+color: #d8b711;
 font-size: 20px;
 background-color: Transparent;
 
@@ -200,7 +204,7 @@ float: left;
   padding: 20px;
 height: 180px;
   text-align: center;
-  background-color: BLUE;
+  background-image: linear-gradient(black,grey);
 }
 .about2{
   width: 33%;
@@ -208,7 +212,7 @@ height: 180px;
 padding:20px;
 color: white;
 height: 180px;
-background-color: red;
+background-image: linear-gradient(black,grey);
   text-align: center;
 }
 .about3{
@@ -217,7 +221,7 @@ background-color: red;
   float:left;
   height: 180px;
 padding:20px;
-background-color: green;
+background-image: linear-gradient(black,grey);
   text-align: center;
 }
 
@@ -227,7 +231,7 @@ background-color: green;
 color: grey;
 
   width: 100%;
-height: 400px;
+height: 420px;
   align-items: center;
   padding: 20px;
   background-color: white;
@@ -269,22 +273,22 @@ background-color: lightgrey;
     height: 530px;
   }
 .products{
-  height: 1090px;
+  height: 1260px;
   padding: 3px;
 }
 
 
 .pro1{
   width: 100%;
-  height: 350px;
+  height: 395px;
 }
 .pro2{
   width: 100%;
-  height: 350px;
+  height: 395px;
 }
 .pro3{
   width: 100%;
-  height: 350px;
+  height: 395px;
 }
 
 
@@ -298,7 +302,7 @@ height: 235px;
     width:100%;
     float: none;}
 
-}
+
 .about2{
   width: 100%;
   color: white;
@@ -306,8 +310,14 @@ height: 235px;
   height: 205px;
   }
 .welcome{
-  height: 450px;
+  height: 250px;
+  font-size: 15px;
+  color: yellow;
 background-size: 100% 100%;
+}
+.logopng img{
+  width:100px;
+  height:80px;
 }
 
 .about3{
@@ -353,19 +363,19 @@ height: 270px;
 }
 .welcome{
 text-align: center;
-padding-top: 30px;
+padding-top: 60px;
 vertical-align: middle;
-font-weight: 400;
+font-weight: 900;
 background-color:black;
-height: 450px;
-font-size: 30px;
-color: white;
+height: 280 px;
+font-size: 15px;
+color: yellow;
 background-size: 100% 100%;
 
 }
 .newbutton{
-width:170px;
-padding: 6px;
+width:120px;
+padding: 4px;
 vertical-align: bottom;
 
 font-size: 12px;
