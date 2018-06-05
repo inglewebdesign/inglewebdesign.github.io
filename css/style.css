@@ -48,7 +48,7 @@ body {
 }
 
 a {
-  color: #52D681;
+  color: white;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -119,9 +119,13 @@ h4{
 }
 
 .lng{
+  font-family: "Montserrat", sans-serif;
   color: black;
   background-color: yellow;
+  font-size: 20px;
+  padding: 5px 0px 5px 1px;
   font-weight: bold;
+  height: 50px;
 }
 
 .welcome{
@@ -266,7 +270,7 @@ h4:after {
 color: grey;
 
   width: 100%;
-height: 355px;
+height: 430px;
   align-items: center;
   padding: 20px;
   background-color: white;
@@ -358,24 +362,25 @@ background-color: lightgrey;
   .about{
     height: 530px;
   }
-.products{
-  height: 1200px;
-  padding: 5px;
-}
+  .products{
+    height: 1540px;
+    padding: 1px;
+  }
 
 
-.pro1{
-  width: 100%;
-  height: 399px;
-}
-.pro2{
-  width: 100%;
-  height: 375px;
-}
-.pro3{
-  width: 100%;
-  height: 375px;
-}
+  .pro1{
+    width: 100%;
+    height: 399px;
+  }
+  .pro2{
+    width: 100%;
+    height: 375px;
+  }
+  .pro3{
+    width: 100%;
+    height: 345px;
+  }
+
 
 
   .aboutmain{
@@ -472,7 +477,7 @@ background-color: Transparent;
 }
 
 .products{
-  height: 1140px;
+  height: 1250px;
   padding: 1px;
 }
 
